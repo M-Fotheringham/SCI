@@ -1,2 +1,2 @@
-# SCI
-Code used to generate the Spatial Configuration Index (SCI) from the AstroPath WSI databases.
+# Spatial Configuration Index
+This code will generate a Spatial Configuration Index (SCI) from a WSI database with the AstroPath schema. It works by first creating intermediary databases containing the counts of each unique spatial configuration per specimen using SQL, then transitioning to Python to compute the sum of select weighted spatial configuration densities per specimen, resulting in a single value for each specimen.
